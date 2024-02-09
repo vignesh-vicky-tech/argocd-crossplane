@@ -1,0 +1,12 @@
+apiVersion: ec2.aws.upbound.io/v1beta1
+kind: Instance
+metadata:
+  name: cross-instances
+spec:
+  forProvider:
+    region: us-east-1
+    ami: ami-06aa3f7caf3a30282
+    instanceType: t2.micro
+    keyName: cross-keypair
+  providerConfigRef:
+name: default
