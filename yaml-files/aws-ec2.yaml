@@ -9,4 +9,4 @@ spec:
     instanceType: t2.micro
     keyName: cross-keypair
   providerConfigRef:
-name: default
+    name: default
