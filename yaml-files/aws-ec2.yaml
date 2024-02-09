@@ -6,7 +6,7 @@ spec:
   forProvider:
     region: us-east-1
     ami: ami-06aa3f7caf3a30282
-    instanceType: t2.micro
+    instanceType: t2.small
     keyName: cross-keypair
   providerConfigRef:
     name: default
